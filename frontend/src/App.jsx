@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route, useNavigate } from 'react-router-dom';
 import { Lock, CreditCard, CheckCircle, XCircle } from 'lucide-react';
 
-const API_URL = "http://localhost:5000/api"; 
+const API_URL = "https://tarek-payment-api.onrender.com/api"; 
 
 function PaymentPage() {
   const [amount, setAmount] = useState('');
